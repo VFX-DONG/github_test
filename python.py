@@ -1,7 +1,8 @@
 a = 1
 b = a
 c = a+b
-d = range(2, 10, 2)
+d = range(5, 20, 2)
 
 print(c)
-print(d)
+for i in d:
+    print(i)
